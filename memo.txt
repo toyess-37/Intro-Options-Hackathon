@@ -1,0 +1,30 @@
+==================================================
+                    CONSULTING MEMO                    
+==================================================
+TO:      Portfolio Manager
+DATE:    2026-01-15
+SUBJECT: Recommendation on GOOGL $350.0 CALL
+--------------------------------------------------
+
+SUMMARY:
+Model indicates that option premiums are currently CHEAP (lower volatility than usual).
+Current Volatility (18.9%) is in the 3th percentile of the 12-month range.
+
+PRICING DISCREPANCY:
+Metric               | Value          
+--------------------------------------
+Model Fair Value     | $3.28
+Market Price         | $10.10
+Discrepancy          | $-6.82 (Overvalued)
+
+RISKS AND GREEKS:
+- DELTA (0.28): For every $1 GOOGL moves up, this option gains $0.28.
+  Exposure equivalent to owning 27 shares of stock.
+- THETA (-0.10): We lose $0.10 per day due to time decay.
+- VEGA  (0.35): If Volatility spikes 1%, option value increases by $0.35.
+
+HEDGING RECOMMENDATION (DELTA NEUTRAL)
+To eliminate directional risk:
+ACTION: Buy 1 Option Contract
+HEDGE:  SHORT 28 shares of GOOGL stock.
+==================================================
